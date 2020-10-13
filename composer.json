@@ -1,0 +1,30 @@
+{
+    "name": "livecms/cms",
+    "description": "CMS package for laravel 8.x or newest",
+    "keywords": ["package", "laravel", "cms", "livecms"],
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "laravel/framework": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "symfony/css-selector": "3.0.*",
+        "symfony/dom-crawler": "3.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Livecms\\Cms": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
